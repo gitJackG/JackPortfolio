@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+  color: #fff;
+  font-family: 'Space Grotesk', sans-serif;
+  user-select: none;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.app {
+  display: grid;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100dvh;
+  grid-template-columns: 1fr;
+  max-width: 750px;
+  gap: 0;
+  padding: clamp(0.25rem, 2vw, 2rem);
+  margin: 0 auto;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  flex-direction: column;
+  gap: clamp(1rem, 2vw, 2rem);
+  width: 100%;
+  max-width: 750px;
+}
+
+h1 {
+  font-size: clamp(1.25rem, 3.5vw, 1.75rem);
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: clamp(0.875rem, 2.5vw, 1.25rem);
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+p,
+a {
+  font-size: clamp(0.8125rem, 2.25vw, 1.125rem);
+  line-height: 1.5;
+  font-weight: 300;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+a {
+  text-decoration: none;
+}

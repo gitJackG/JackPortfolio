@@ -1,0 +1,60 @@
+.tech-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-header-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-bottom: clamp(0.5rem, 2vw, 1rem);
+}
+
+.tech-content-section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: clamp(0.5rem, 2vw, 1rem);
+    justify-content: flex-start;
+}
+
+.tech-item {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: clamp(0.5rem, 2vw, 1rem);
+    padding: clamp(0.375rem, 1vw, 0.5rem) clamp(0.75rem, 2vw, 1rem);
+    border: 1px solid #fff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.tech-item svg {
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+    transition: fill 0.3s ease-in-out;
+}
+
+.tech-item:hover {
+    background-color: #fff;
+    color: #121212;
+}
+
+.tech-item:hover svg {
+    fill: #121212;
+}
+
+.tech-stack-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: clamp(0.5rem, 2vw, 1rem);
+    width: 100%;
+    text-align: start;
+}
