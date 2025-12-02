@@ -16,7 +16,7 @@ export default function Navbar() {
         ];
 
         const handleScroll = () => {
-            const triggerPoint = window.innerHeight;
+            const triggerPoint = window.innerHeight * 0.6;
             let closestSection = "";
             let closestDistance = Infinity;
 
