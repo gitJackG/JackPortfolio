@@ -3,7 +3,7 @@ import './CV.css'
 import CVDocument from '../../assets/Jack_Resume_FullStack.pdf'
 import EYReference from '../../assets/EYref.pdf'
 import SALBCNReference from '../../assets/SALBCNref.pdf'
-import CVImg from '../../assets/cv.png'
+import CVImg from '../../assets/Jack_Resume_FullStack.webp'
 import EYReferenceImg from '../../assets/eyref.png'
 import SALBCNReferenceImg from '../../assets/salbcnref.png'
 
