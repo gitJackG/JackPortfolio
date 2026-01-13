@@ -10,7 +10,6 @@ import CV from './pages/CV/CV'
 import Contact from './pages/Contact/Contact'
 function App() {
   return (
-    <ReactLenis root>
       <div className="app">
         <main>
           <Hero />
@@ -23,7 +22,6 @@ function App() {
         </main>
         <Navbar />
       </div>
-    </ReactLenis>
   )
 }
 
